@@ -26,7 +26,7 @@ public class BubbleSort {
 
         //Condição de verificação do vetor se está em ordem para sair do loop
         boolean emOrdem = true;
-        System.out.println("  Antes: " + Arrays.toString(dadosBubble));
+        System.out.println("  Antes: " + Arrays.toString(dadosBubble)); // Arrays utilizado somente para mostrar o vetor inteiro
         do {
             emOrdem = true;
             for (int i = 1; i < 6; i++) {
